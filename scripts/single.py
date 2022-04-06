@@ -40,4 +40,4 @@ try:
 except NoSuchElementException:
     driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "Some elements failed to load"}}')
 # Stop the driver
-driver.quit() 
+driver.quit()
